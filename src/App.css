@@ -1,0 +1,6 @@
+header {
+  background-color: thistle;
+  color: #373a40;
+  display: flex;
+  justify-content: space-around;
+}
