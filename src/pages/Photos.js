@@ -6,8 +6,7 @@ function Photos() {
   const { allPhotos } = useContext(Context);
   console.log(allPhotos);
   return (
-    <div>
-      <h2>Photos</h2>
+    <div className="image-gallery">
       {allPhotos.map((photo) => (
         <Image key={photo.id} photo={photo} />
       ))}

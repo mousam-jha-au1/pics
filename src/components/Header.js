@@ -1,15 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <header>
-      <Link to="/">
-        <h2>Pics</h2>
-      </Link>
-      <Link to="/cart">
-        <h2>Cart</h2>
-      </Link>
+      <NavLink className="nav-link" to="/">
+        <i className="ri-image-line ri-fw ri-2x"></i>
+      </NavLink>
+      <NavLink className="nav-link" to="/cart">
+        <i className="ri-shopping-cart-line ri-fw ri-2x"></i>
+      </NavLink>
     </header>
   );
 }
